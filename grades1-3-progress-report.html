@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>
+@page{margin:10mm}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#111;font-family:Georgia,"Times New Roman",serif;font-size:13px}
+.bar{max-width:1100px;margin:8px auto 0;display:flex;gap:8px;justify-content:space-between;padding:0 8px}
+.bar a,.bar button{font:inherit;padding:5px 12px;border:1px solid #111;background:#fff;color:#111;cursor:pointer;text-decoration:none}
+.sheet{max-width:1100px;margin:12px auto;padding:18px;border:1.5px solid #1b1b1b;background:#fff}
+.sheet.land{max-width:1250px}
+h1{text-align:center;font-size:19px;margin:0 0 6px}
+h2{text-align:center;font-size:17px;margin:14px 0 8px}
+h3{text-align:center;font-size:13px;margin:12px 0 6px}
+.sub{text-align:center;font-size:11px;margin-top:-4px}
+.hdr{display:grid;grid-template-columns:90px 1fr 90px;align-items:center;text-align:center;font-size:11px;line-height:1.35;margin-bottom:8px}
+.seal,.logo{width:72px;height:72px;border-radius:50%;margin:auto;display:flex;align-items:center;justify-content:center;font-size:9px;text-align:center}
+.seal{border:2px solid #1c3763;color:#1c3763}.logo{background:#808080;color:#fff}
+.ed{border-bottom:1px dotted #888;padding:0 2px}
+.row{display:flex;flex-wrap:wrap;gap:5px 14px;margin:5px 0}
+.fld{display:flex;gap:6px;align-items:baseline;font-weight:bold;flex:1;min-width:130px}
+.fld.grow{flex:3}.fld.sm{flex:.5;min-width:70px}
+input,textarea,select{font:inherit;color:inherit}
+.fld input,.sig input{flex:1;min-width:40px;border:0;border-bottom:1px solid #000;background:transparent;font-weight:normal}
+.box{border:1px solid #000;padding:6px 10px;font-size:12px;line-height:1.4;margin:8px 0}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+@media(max-width:820px){.cols{grid-template-columns:1fr}}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th,td{border:1px solid #000;padding:3px 6px;vertical-align:middle}
+th{background:#fff;font-weight:bold}
+table.navy th{background:#1c3763;color:#fff}
+td.no{text-align:center;width:34px}td.b,th.c,td.c{text-align:center;font-weight:bold}
+td.sec{background:#c9dcf0;font-weight:bold;padding:2px 8px}
+td.sec.t{background:#b9e0ea}
+td.sub{padding-left:20px}
+td.term{background:#1c3763;color:#fff;font-weight:bold;padding:2px 8px}
+td.dom{background:#b9e0ea;font-weight:bold;padding:2px 14px}
+td.grp{background:#eee;font-weight:bold;font-style:italic}
+td.rc{padding:0;width:34px}
+td.rc select,table input.n{width:100%;border:0;background:transparent;text-align:center;font:bold 12px Georgia,serif;padding:2px;appearance:none;-webkit-appearance:none;min-width:28px}
+td.rate{padding:0;width:90px}td.rate input{width:100%;border:0;padding:3px;text-align:center;background:transparent}
+td.cells{padding:0;width:120px}
+.rg{display:grid;grid-template-columns:repeat(3,1fr)}
+.rg div{height:19px;border:1px solid #000;margin:-.5px}
+.rg .x{background:#808080}.rg select{width:100%;height:100%;border:0;background:transparent;font:bold 12px Georgia,serif;text-align:center;padding:0;appearance:none;-webkit-appearance:none;color:#000}
+.L{background:#ff0}.S{background:#b09fc9}.R{background:#f9bf93}.W{background:#86fca0}
+select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #1c3763;outline-offset:-2px}
+.foot{font-size:12px;font-style:italic;margin:10px 0 6px}
+table.leg{width:auto;font-size:12px}table.leg td{padding:2px 14px}
+textarea{width:100%;border:0;resize:vertical;background:transparent;padding:0 4px}
+textarea.lines{line-height:22px;background:repeating-linear-gradient(transparent 0 21px,#000 21px 22px)}
+.blk{border:1px solid #000;margin-bottom:6px}.blk>div{text-align:center;font-weight:bold;font-size:12px;padding:3px;border-bottom:1px solid #000}
+.sig{display:flex;gap:6px;margin:4px 0 10px;font-size:12px;align-items:baseline}
+.sline{border-bottom:1px solid #000;width:200px;margin:22px auto 2px}.cap{text-align:center;font-style:italic;font-size:12px}
+.txt{font-size:12.5px;line-height:1.45;margin:6px 0}
+.pre{white-space:pre-line}
+.page{break-after:page}
+@media print{.bar{display:none}.sheet{margin:0;border:0;max-width:none}}
+</style><title>Learner’s Progress Report – Grades 1 to 3</title></head><body>
+
+
+<main class="sheet" id="p"><div class="hdr"><div class="seal">DepEd<br>seal</div><div>Republic of the Philippines<br>Department of Education<br>National Capital Region<br><b>SCHOOLS DIVISION OFFICE OF CALOOCAN CITY</b><br><span contenteditable="true" class="ed">District Here</span><br>Caloocan City<br><br>School: <b><span contenteditable="true" class="ed">SCHOOL NAME HERE</span></b></div><div class="logo">SELECT SCHOOL LOGO</div></div><h1 style="margin-bottom:0">LEARNER’S PROGRESS REPORT (GRADE <u>&emsp;&emsp;</u>)</h1><div class="sub">School Year 2026-2027</div>
+<div class="row"><label class="fld ">LRN:<input></label><label class="fld grow">Name:<input></label><label class="fld sm">Sex:<input></label></div><div class="row"><label class="fld ">Grade &amp; Section:<input></label><label class="fld grow">Adviser:<input></label><label class="fld sm">Age:<input></label></div>
+<div class="cols" style="margin-top:12px"><div><p class="txt">Dear Parents/Guardians,</p>
+<p class="txt">This report provides a <b>descriptive account of your child’s learning progress</b> for each term. It highlights what your child can already do, what they are currently developing, and how they can be further supported.</p>
+<p class="txt">This report is based on <b>varied evidence of learning</b>, including classroom activities, observations, learner outputs, and assessments. It is designed to give a clearer and more meaningful understanding of your child’s development rather than relying on numerical or letter grades.</p>
+<h3>TERM 1 (UNANG TERMINO)</h3><table><tr><td class="c" style="width:28%">What Your Child Can Do<br><i style="font-weight:normal">(Mga Nagagawa)</i></td><td style="padding:0"><textarea rows="6"></textarea></td></tr><tr><td class="c">What Your Child Is Learning To Improve<br><i style="font-weight:normal">(Dapat Linangin)</i></td><td style="padding:0"><textarea rows="6"></textarea></td></tr></table><div class="sig">Parent’s/Guardian’s Signature: <input style="max-width:220px"></div><h3>TERM 2 (IKALAWANG TERMINO)</h3><table><tr><td class="c" style="width:28%">What Your Child Can Do<br><i style="font-weight:normal">(Mga Nagagawa)</i></td><td style="padding:0"><textarea rows="6"></textarea></td></tr><tr><td class="c">What Your Child Is Learning To Improve<br><i style="font-weight:normal">(Dapat Linangin)</i></td><td style="padding:0"><textarea rows="6"></textarea></td></tr></table><div class="sig">Parent’s/Guardian’s Signature: <input style="max-width:220px"></div><h3>TERM 3 (IKATLONG TERMINO)</h3><table><tr><td class="c" style="width:28%">What Your Child Can Do<br><i style="font-weight:normal">(Mga Nagagawa)</i></td><td style="padding:0"><textarea rows="6"></textarea></td></tr><tr><td class="c">What Your Child Is Learning To Improve<br><i style="font-weight:normal">(Dapat Linangin)</i></td><td style="padding:0"><textarea rows="6"></textarea></td></tr></table><div class="sig">Parent’s/Guardian’s Signature: <input style="max-width:220px"></div></div>
+<div><h3>ATTENDANCE RECORD</h3><table><thead><tr><th>Term</th><th>Month</th><th>No. of School Days</th><th>No. of Days Present</th><th>No. of Days Absent</th></tr></thead><tbody><tr><td rowspan="4" class="b">1</td><td>June</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>July</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>August</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>September</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td rowspan="4" class="b">2</td><td>September</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>October</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>November</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>December</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td rowspan="4" class="b">3</td><td>January</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>February</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>March</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td>April</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr><tr><td colspan="2" class="b">TOTAL</td><td class="rate"><input></td><td class="rate"><input></td><td class="rate"><input></td></tr></tbody></table>
+<h3 style="margin-top:18px">IMPORTANT NOTE TO PARENTS/GUARDIANS</h3><p class="txt">A detailed record of your child’s progress across specific learning competencies is attached in the succeeding pages. This includes the monitoring of skills in Reading and Literacy, Language, Mathematics, Good Manners and Right Conduct, and Makabansa.</p><p class="txt">Performance levels used in monitoring:</p>
+<table><thead><tr><th>Letter Grade</th><th>Descriptor</th><th>Description</th></tr></thead><tbody><tr><td class="c">A</td><td style="text-align:center">Advancing (Namumukod-tangi)</td><td style="text-align:center">Consistently demonstrates skills and understanding beyond expectations; applies learning independently and confidently.</td></tr><tr><td class="c">B</td><td style="text-align:center">Benchmarking (Naipamamalas)</td><td style="text-align:center">Meets expected learning standards; demonstrates skills and understanding with consistency.</td></tr><tr><td class="c">C</td><td style="text-align:center">Connecting (Natutungo)</td><td style="text-align:center">Shows developing understanding and skills; requires minimal guidance to meet expectations.</td></tr><tr><td class="c">D</td><td style="text-align:center">Developing (Napauunlad)</td><td style="text-align:center">Demonstrates emerging skills and understanding; requires regular guidance and support.</td></tr><tr><td class="c">E</td><td style="text-align:center">Emerging (Nagsisimula)</td><td style="text-align:center">Beginning to demonstrate basic skills; requires close supervision and targeted intervention.</td></tr></tbody></table>
+<h3 style="margin-top:18px">CERTIFICATE OF TRANSFER</h3><p class="txt">This is to certify that the above-named learner has satisfactorily completed the requirements for the grade level indicated.</p>
+<div class="row"><label class="fld ">Admitted to Grade:<input></label></div><div class="row"><label class="fld ">Eligible for Admission to Grade:<input></label></div><div class="txt">Approved:</div><div class="sline"></div><div class="cap">Adviser</div><div class="sline"></div><div class="cap">School Head</div>
+<h3 style="margin-top:18px">CANCELLATION OF ELIGIBILITY TO TRANSFER</h3><div class="row"><label class="fld ">Admitted in:<input></label><label class="fld ">Date:<input></label></div><div class="sline"></div><div class="cap">School Head</div></div></div></main>
+</body></html>
